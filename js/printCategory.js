@@ -38,10 +38,10 @@ function printVideos(data) {
                 />
             </div>
             <div class="pl-3">
-                <p class="text-lg font-semibold text-neutral-950 text-left mb-2">
-                    Building a Winning UX Strategy Using the Kano Model
+                <p class="text-lg font-semibold text-neutral-950 text-left mb-1">
+                    ${video.title}
                 </p>
-                <p class="text-neutral-500 mb-2 text-base text-left">
+                <p class="text-neutral-500 mb-1 text-base text-left">
                     ${video.authors[0].profile_name}
                     ${
                       video.authors[0].verified == true
