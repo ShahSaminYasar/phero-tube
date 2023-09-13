@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHeroTube</title>
+    <!-- FontAwesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Link Stylesheets -->
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body class="bg-white">
+    <div class="container mx-auto px-2">
+      <!-- Header Starts -->
+      <header
+        id="header"
+        class="py-5 border-b-2 border-b-neutral-300 flex justify-between align-middle"
+      >
+        <img src="./media/images/Logo.png" alt="" />
+        <button
+          class="px-3 py-2 rounded-md bg-neutral-300 text-black text-base"
+        >
+          Sort by view
+        </button>
+        <a
+          href="./blog.html"
+          class="px-3 py-2 bg-red-600 text-white text-base rounded-md"
+        >
+          Blog
+        </a>
+      </header>
+      <!-- Header Ends -->
+
+      <!-- Main Starts -->
+      <main id="main">
+        <!-- Category Buttons -->
+        <div
+          id="category_buttons"
+          class="flex flex-row flex-wrap justify-center align-middle gap-3 py-5"
+        ></div>
+
+        <!-- Content Section -->
+        <section
+          id="content"
+          class="min-h-[70vh] flex flex-col justify-center align-middle"
+        >
+          <section
+            id="info"
+            class="flex flex-col justify-center align-middle"
+          ></section>
+          <section
+            id="videos"
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+          >
+            <!-- <a href="#" class="video w-full">
+              <div
+                class="thumbnail-container w-full rounded-lg overflow-hidden relative mb-5"
+              >
+                <img
+                  src="https://i.ibb.co/L1b6xSq/shape.jpg"
+                  alt=""
+                  class="w-full"
+                />
+                <span
+                  class="badge absolute bottom-2 right-2 bg-black text-neutral-300 text-xs p-1 rounded-md"
+                  >3hrs 56 min ago</span
+                >
+              </div>
+              <div class="flex flex-row">
+                <div>
+                  <img
+                    src="https://i.ibb.co/D9wWRM6/olivia.jpg"
+                    alt=""
+                    class="w-14 rounded-full mt-1"
+                  />
+                </div>
+                <div class="pl-3">
+                  <p
+                    class="text-lg font-semibold text-neutral-950 text-left mb-2"
+                  >
+                    Building a Winning UX Strategy Using the Kano Model
+                  </p>
+                  <p class="text-neutral-500 mb-2 text-base text-left">
+                    Awlad Hussain
+                    <img
+                      src="./media/images/blue_tick.png"
+                      alt=""
+                      class="inline"
+                    />
+                  </p>
+                  <p class="text-neutral-500 mb-2 text-base text-left">
+                    91K views
+                  </p>
+                </div>
+              </div>
+            </a> -->
+          </section>
+        </section>
+      </main>
+      <!-- Main Ends -->
+    </div>
+
+    <!-- Scripts -->
+    <script src="./js/importElements.js"></script>
+    <script src="./js/fetchCategories.js"></script>
+    <script src="./js/printCategory.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

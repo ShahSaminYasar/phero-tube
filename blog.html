@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog | PHeroTube</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="container mx-auto px-2">
+      <header
+        id="header"
+        class="text-center py-4 border-b-2 border-b-neutral-300 text-3xl text-black"
+      >
+        Blog
+      </header>
+
+      <main id="main">
+        <!-- Question/Answer div -->
+        <div
+          class="my-6 border-2 border-neutral-300 rounded-lg border-b-4 border-b-red-600 p-5"
+        >
+          <p class="text-2xl text-neutral-950 font-semibold text-left mb-4">
+            Ques. Discuss the scope of var, let, and const
+          </p>
+          <p class="text-lg text-neutral-900 text-left font-normal">
+            <strong>Ans.</strong> Var = Function scoped, hoisting enabled for
+            which it is not recommended to use 'var' due to unexpected
+            behaviours.<br />Let = Block scoped, no hoisting.<br />Const = Block
+            scoped; their values are constant.
+          </p>
+        </div>
+        <!-- Question/Answer div -->
+        <div
+          class="my-6 border-2 border-neutral-300 rounded-lg border-b-4 border-b-red-600 p-5"
+        >
+          <p class="text-2xl text-neutral-950 font-semibold text-left mb-4">
+            Ques. Tell us the use cases of null and undefined
+          </p>
+          <p class="text-lg text-neutral-900 text-left font-normal">
+            <strong>Ans.</strong> Null means the absence of the object i.e. the
+            object is not defined or submitted at all. Mostly intentionally
+            done/initialized to keep the value blank.
+            <br />
+            Undefined means the object is defined but the value is not. Occurs
+            unintentionally.
+          </p>
+        </div>
+        <!-- Question/Answer div -->
+        <div
+          class="my-6 border-2 border-neutral-300 rounded-lg border-b-4 border-b-red-600 p-5"
+        >
+          <p class="text-2xl text-neutral-950 font-semibold text-left mb-4">
+            Ques. What do you mean by REST API?
+          </p>
+          <p class="text-lg text-neutral-900 text-left font-normal">
+            <strong>Ans.</strong> REST API uses HTTP method to perform CRUD
+            operations which mean:<br />
+            C = Create<br />R = Read<br />U = Update<br />D = Delete<br />
+            By using these different states/types we can perform the basic
+            operations on an API data.
+          </p>
+        </div>
+
+        <!-- Home Button -->
+        <div class="py-5 mb-5 text-right">
+          <a
+            href="./index.html"
+            class="py-2 px-3 bg-red-600 text-white text-base rounded-lg"
+            >Go back to PHeroTube</a
+          >
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
